@@ -46,7 +46,7 @@ PyDispatcher==2.0.5
 PyHamcrest==2.0.1
 pylint==2.4.4
 pyOpenSSL==19.1.0
-pypiwin32==223
+# pypiwin32==223
 python-dateutil==2.8.0
 pytz==2019.3
 # pywin32==227
@@ -54,7 +54,7 @@ PyYAML==3.13
 queuelib==1.5.0
 regex==2020.1.8
 requests==2.20.1
-Scrapy==1.8.0
+# Scrapy==1.8.0
 semantic-version==2.5.0
 service-identity==18.1.0
 six==1.14.0
