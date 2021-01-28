@@ -25,7 +25,7 @@ SECRET_KEY = '7s&p5i6fzo+f4%tou$0g58-nqa6+w$ix%4)gpl1wq3g7d@*xvl'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['127.0.0.1', 'https://social-post-website.herokuapp.com/']
+ALLOWED_HOSTS = ['127.0.0.1', ]
 
 
 # Application definition
@@ -124,7 +124,7 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 STATICFILES_DIR = [os.path.join(BASE_DIR, 'static')]
-STATIC_ROOT = ALLOWED_HOSTS[1] + "/static/"
+# STATIC_ROOT = ALLOWED_HOSTS[1] + "/static/"
 
 LOGIN_REDIRECT_URL = 'test'
 LOGOUT_REDIRECT_URL = 'thanks'
