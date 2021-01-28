@@ -25,7 +25,7 @@ SECRET_KEY = '7s&p5i6fzo+f4%tou$0g58-nqa6+w$ix%4)gpl1wq3g7d@*xvl'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['127.0.0.1']
+ALLOWED_HOSTS = ['127.0.0.1', 'https://social-post-website.herokuapp.com/']
 
 
 # Application definition
